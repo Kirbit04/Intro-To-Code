@@ -1,0 +1,188 @@
+/*The Home Page*/
+@media (max-width: 600px) {
+	/* Styles for small screens */
+}
+@media (min-width: 601px) and (max-width: 1500px) {
+	/* Styles for medium screens */
+}
+@media (min-width: 1501px) {
+	/* Styles for large screens */
+}
+  
+/*designing the navigation bar*/
+.container {
+    position: absolute;
+	margin: 0,0,0,0;
+    width: 1217px; 
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: azure;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color:paleturquoise;
+}
+
+.bod{
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 1217px;
+	margin: 0,0,0,0;
+}
+/*FORMATTING H2 TEXT*/
+h2{
+	text-align: center;
+	align-content:center;
+	font-style: italic;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 15px;
+	margin-top: 30px;
+	line-height: 30px;
+	color: rgb(54, 49, 45);
+}
+#hb{
+	height: 300px;
+	width: 350px;
+	margin-left: 30px;
+	border-radius: 10px;
+	border: solid 1px black;
+}
+
+.hobby{
+	max-width: 800px;
+	margin: 50px auto;
+	padding: 20px;
+	background-color: #ffffff;
+	border: solid teal 2px;
+	border-radius: 5px;
+	box-shadow: rgba(0, 181, 204) 5px 5px, rgba(129, 207, 224) 10px 10px;
+}
+.id{
+	color: rgba(8, 14, 44);
+	text-align: center;
+}
+p{
+	color: black;
+}
+
+.hobbies-container {
+    display: flex;
+    gap: 20px; 
+}
+
+.hobbies-container img {
+
+	height: 300px;
+	width: 220px;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(103, 128, 159);
+}
+
+
+table{
+	margin-left: 270px;
+}
+
+/* Styling Grid */
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	flex: 1;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.grid-item {
+	border: 3px solid rgba(30, 81, 123);
+	width: 300px;
+	border-radius: 10px;
+	box-shadow: rgb(223, 222, 222) 5px 5px;
+}
+.grid-item img{
+	height: 195px;
+	width: 300px;
+	object-fit: cover;
+	border-radius: 5px;
+	
+}
+
+.leisure-container {
+    display: flex;
+    gap: 50px; 
+	margin-left: 70px;
+
+}
+
+.leisure-container img {
+
+	height: 300px;
+	width: 320px;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(103, 128, 159);
+}
+h3{
+	font-size: 15px;
+	font-style: italic;
+}
+
+/* Basic styling for the form */
+form {
+    max-width: 800px;
+    margin-top: 30px;
+	margin-left: 150px;
+	margin-right: -200px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+	border: solid teal 2px;
+    box-shadow: rgba(0, 181, 204) 5px 5px;
+}
+
+/* Style form elements */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+    form {
+        max-width: 50%;
+    }
+}
